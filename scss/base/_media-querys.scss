@@ -1,0 +1,356 @@
+@media (max-width:875px) {
+    .mainIndex .titulo h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width:770px) {
+    .infoAlemania1 img {
+        display: none;
+    }
+
+    .infoAlemania2 img {
+        display: none;
+    }
+
+    .mainIndex .infoAlemania1 {
+        height: 850px;
+    }
+
+    .mainIndex .infoAlemania1 div p {
+        text-align: left;
+    }
+
+    .mainIndex .infoAlemania2 {
+        height: 850px;
+
+        p {
+            text-align: left;
+        }
+    }
+}
+
+@media (max-width:530px) {
+    .mainIndex .informacion nav a div {
+        width: 320px;
+        margin: 20px 20px
+    }
+}
+
+@media (max-width:650px) {
+    footer .footerContainer a div {
+        height: 65px;
+        width: 140px;
+        border-radius: 10px;
+        margin: 20px
+    }
+
+    footer .footerContainer a div img {
+        width: 35px;
+    }
+
+    footer .footerContainer a div p {
+        font-size: 15px;
+    }
+
+}
+
+/*MEDIA QUERY HISTORIA*/
+
+@media (max-width:701px) {
+    .mainhistoria img {
+        display: none;
+    }
+
+    .mainhistoria div p {
+        width: unset;
+        width: 300px;
+        font-size: 20px;
+    }
+
+    .historia h2 {
+        width: 300px;
+        font-size: 20px;
+    }
+
+    .historia {
+        width: 300px;
+    }
+}
+
+@media (max-width:380px) {
+
+    .mainhistoria div p {
+        width: 220px;
+        font-size: 15px;
+    }
+
+    .mainhistoria div h2 {
+        width: 220px;
+        font-size: 20px;
+    }
+}
+
+/* MEDIA QUERYS GEOGRAFIA */
+
+@media (max-width: 1330px) {
+    .mainGeografia section img {
+        width: 500px;
+        height: 700px;
+    }
+
+    .mainGeografia section div p {
+        text-align: left;
+        font-size: 20px;
+        margin: 15px;
+    }
+}
+
+@media (max-width: 1090px) {
+    .mainGeografia section img {
+        width: 400px;
+        height: 550px;
+    }
+
+    .mainGeografia section div p {
+        font-size: 17px;
+        margin: 0;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 970px) {
+    .mainGeografia section img {
+        width: 325px;
+        height: 450px;
+    }
+
+    .mainGeografia section div p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width:800px) {
+    .mainGeografia section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mainGeografia section img {
+        width: 400px;
+        height: 550px;
+    }
+}
+
+@media (max-width:425px) {
+    .mainGeografia section img {
+        width: 300px;
+        height: 400px;
+    }
+
+    .mainGeografia h1 {
+        font-size: 40px;
+    }
+}
+
+/*MEDIA-QUERYS POLITICA*/
+
+@media(max-width:1300px) {
+    .mainPolitica .contenedorBandera img {
+        width: 600px;
+    }
+
+    .mainPolitica p {
+        margin: 60px;
+    }
+}
+
+@media(max-width:1100px) {
+    .mainPolitica img {
+        width: 450px;
+    }
+
+    .mainPolitica p {
+        margin: 50px;
+        font-size: 22px;
+    }
+}
+
+@media(max-width:900px) {
+
+    .mainPolitica img {
+        width: 400px;
+    }
+
+    .mainPolitica .contenedorBandera img {
+        width: 350px;
+    }
+
+    .mainPolitica p {
+        margin: 40px;
+        font-size: 20px;
+    }
+}
+
+
+@media(max-width:750px) {
+    .mainPolitica .tituloPolitica h1 {
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .mainPolitica .contenedorBandera {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+
+    .mainPolitica .contenedorPresidente {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .mainPolitica .contenedorBandera img {
+        width: 550px;
+        border-radius: 20px;
+    }
+
+    .mainPolitica .contenedorPresidente img {
+        width: 550px;
+        border-radius: 20px;
+    }
+}
+
+@media(max-width:570px) {
+
+    .mainPolitica .contenedorBandera img {
+        width: 370px;
+        border-radius: 15px;
+    }
+
+    .mainPolitica .contenedorPresidente img {
+        width: 370px;
+        border-radius: 15px;
+    }
+
+    .mainPolitica p {
+        margin: 20px;
+        font-size: 17px;
+    }
+}
+
+@media(max-width:430px) {
+    .mainPolitica .contenedorBandera img {
+        width: 300px;
+    }
+
+    .mainPolitica .contenedorPresidente img {
+        width: 300px;
+    }
+
+    .mainPolitica .tituloPolitica h1 {
+        font-size: 25px;
+        padding: 10px;
+    }
+
+}
+
+/*MEDIAQUERYS CULTURA*/
+
+@media(max-width:1200px) {
+    .mainCultura .comidaAlemana .contenedorComidaGrid {
+        grid-template-rows: repeat(4, 300px);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "comida5 comida2"
+            "comida5 comida3"
+            "comida1 comida1"
+            "comida6 comida6";
+        padding: 20px;
+    }
+
+    .mainCultura .comidaAlemana .contenedorComidaGrid .contenedorComida4 {
+        display: none;
+    }
+
+    .mainCultura .arquitecturaAlemana .contenedorArquitecturaGrid {
+        grid-template-rows: repeat(4, 300px);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            "arquitectura5 arquitectura5"
+            "arquitectura1 arquitectura1"
+            "arquitectura3 arquitectura4"
+            "arquitectura6 arquitectura4";
+        padding: 20px;
+
+    }
+
+    .mainCultura .arquitecturaAlemana .contenedorArquitecturaGrid .contenedorArquitectura2 {
+        display: none;
+    }
+
+}
+
+@media(max-width:750px) {
+    .mainCultura .comidaAlemana .contenedorComidaGrid {
+        grid-template-rows: repeat(6, 300px);
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "comida5"
+            "comida5"
+            "comida1"
+            "comida1"
+            "comida2"
+            "comida3";
+        padding: 90px;
+    }
+
+    .mainCultura .comidaAlemana .contenedorComidaGrid .contenedorComida6 {
+        display: none;
+    }
+
+    .mainCultura .arquitecturaAlemana .contenedorArquitecturaGrid {
+        grid-template-rows: repeat(6, 300px);
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "arquitectura3"
+            "arquitectura6"
+            "arquitectura1"
+            "arquitectura1"
+            "arquitectura4"
+            "arquitectura4";
+        padding: 90px;
+    }
+
+    .mainCultura .arquitecturaAlemana .contenedorArquitecturaGrid .contenedorArquitectura5 {
+        display: none;
+    }
+}
+
+@media(max-width:550px) {
+    .mainCultura .arquitecturaAlemana .contenedorArquitecturaGrid {
+        padding: 20px;
+    }
+
+    .mainCultura .comidaAlemana .contenedorComidaGrid {
+        padding: 20px;
+    }
+}
+
+@media(max-width:550px) {
+    .mainCultura .arquitecturaAlemana .contenedorArquitecturaGrid {
+        padding: 0;
+    }
+
+    .mainCultura .comidaAlemana .contenedorComidaGrid {
+        padding: 0;
+    }
+
+    .mainCultura .arquitecturaAlemana .contenedorArquitecturaGrid div {
+        margin: 5px;
+    }
+}

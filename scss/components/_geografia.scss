@@ -1,0 +1,138 @@
+.mainGeografia {
+    .azul{
+        background-color: #3FC1C9;
+    }
+    .rosa{
+        background-color: #FC5185;
+    }
+    
+    h1 {
+        font-family: "Outfit", sans-serif;
+        font-size: 80px;
+        font-weight: 800;
+        padding: 30px;
+        text-align: center;
+        background-color: #e6e6e6;
+        margin-top: 15vh;
+    }
+
+    section {
+        height: auto;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        padding: 7%;
+        padding-top: 250px;
+
+        h2 {
+            font-family: "Outfit", sans-serif;
+            font-size: 50px;
+            font-weight: 800;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .onda1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+
+            svg {
+                position: relative;
+                display: block;
+                width: calc(100% + 1.3px);
+                height: 316px;
+
+                .shape-fill {
+                    fill: #3FC1C9;
+                }
+            }
+        }
+
+        .onda2 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+
+            svg {
+                position: relative;
+                display: block;
+                width: calc(142% + 1.3px);
+                height: 231px;
+
+                .shape-fill {
+                    fill: #FC5185;
+                }
+            }
+        }
+
+        .onda3 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+
+            svg {
+                position: relative;
+                display: block;
+                width: calc(192% + 1.3px);
+                height: 438px;
+
+                .shape-fill {
+                    fill: #3FC1C9;
+                }
+            }
+        }
+
+        .onda4 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+
+            svg {
+                position: relative;
+                display: block;
+                width: calc(106% + 1.3px);
+                height: 393px;
+
+                .shape-fill {
+                    fill: #FC5185;
+                }
+            }
+        }
+
+        img {
+            border-radius: 40px;
+        }
+
+        div {
+            p {
+                font-family: "Outfit", sans-serif;
+                font-size: 30px;
+                font-weight: 600;
+                padding: 40px;
+                text-align: justify;
+                margin: 0 30px
+            }
+        }
+    }
+
+    .seccion4 {
+        padding-top: 300px;
+
+        img {
+            width: 300px;
+        }
+    }
+}

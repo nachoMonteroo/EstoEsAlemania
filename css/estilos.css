@@ -1,0 +1,728 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #e6e6e6; }
+
+.colorHeader {
+  background-color: #364F6B; }
+
+header {
+  width: 100%; }
+
+.mainIndex .titulo {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 100%;
+  background-image: url(../img/FotoAlemania2.jpg);
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .mainIndex .titulo h1 {
+    font-family: "Outfit", sans-serif;
+    font-size: 100px;
+    color: #FC5185;
+    text-shadow: 5px 7px #3FC1C9;
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 15px;
+    text-align: center; }
+
+.mainIndex .infoAlemania1 {
+  background-color: #FC5185;
+  height: 600px;
+  display: flex;
+  margin-top: 50px; }
+  .mainIndex .infoAlemania1 img {
+    height: 100%;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    width: 50vw; }
+  .mainIndex .infoAlemania1 div {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .mainIndex .infoAlemania1 div p {
+      font-family: "Outfit", sans-serif;
+      margin: 10px 20px;
+      text-align: justify;
+      font-size: 24px; }
+
+.mainIndex .infoAlemania2 {
+  background-color: #3FC1C9;
+  height: 600px;
+  display: flex;
+  justify-content: flex-end; }
+  .mainIndex .infoAlemania2 div {
+    min-width: 30vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .mainIndex .infoAlemania2 div p {
+      font-family: "Outfit", sans-serif;
+      margin: 10px 10%;
+      font-size: 24px;
+      text-align: justify; }
+  .mainIndex .infoAlemania2 img {
+    height: 100%;
+    width: 50vw;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px; }
+
+.mainIndex .informacion h2 {
+  font-family: "Outfit", sans-serif;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 3px 3px 4px #4d4d4d, 6px 6px 3px #636363, 9px 9px 3px #848484, 12px 12px 3px #b1b1b1, 15px 15px 3px #d3d3d3, 18px 18px 3px #F1F1F1;
+  margin-top: 40px; }
+
+.mainIndex .informacion nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+  .mainIndex .informacion nav a {
+    text-decoration: none; }
+    .mainIndex .informacion nav a div {
+      width: 450px;
+      height: 250px;
+      border: 5px solid #364F6B;
+      border-radius: 30px;
+      margin: 40px 40px 15px 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .mainIndex .informacion nav a div p {
+        font-size: 50px;
+        font-weight: 900;
+        font-family: "Outfit", sans-serif;
+        color: black;
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        padding: 10px; }
+    .mainIndex .informacion nav a .historiaAlemania {
+      background-image: url(../img/Berlinwall.webp);
+      background-size: 100%;
+      background-position-y: 30%; }
+    .mainIndex .informacion nav a .geografiaAlemania {
+      background-image: url(../img/Germanygeography.jpg);
+      background-size: 100%;
+      background-position-y: 50%; }
+    .mainIndex .informacion nav a .politicaAlemania {
+      background-image: url(../img/PoliticaAlemania.webp);
+      background-size: 100%; }
+    .mainIndex .informacion nav a .culturaAlemania {
+      background-image: url(../img/CulturaAlemana.jpeg);
+      background-size: 100%;
+      background-position-y: 30%; }
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FC5185;
+  margin-top: 100px; }
+  footer h2 {
+    margin: 30px;
+    font-size: 60px;
+    font-family: "Outfit", sans-serif;
+    color: black;
+    text-align: center; }
+  footer .divisorGrande {
+    height: 2px;
+    width: 75vw;
+    background-color: #364F6B55;
+    margin: 40px;
+    justify-self: center; }
+  footer .divisorPequeno {
+    height: 2px;
+    width: 45vw;
+    background-color: #364F6B55;
+    justify-self: center; }
+  footer .footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    footer .footerContainer a {
+      list-style: none;
+      text-decoration: none; }
+      footer .footerContainer a div {
+        height: 85px;
+        width: 250px;
+        background-color: #3FC1C9;
+        display: flex;
+        align-items: center;
+        margin: 50px;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 8px 8px #397e82; }
+        footer .footerContainer a div img {
+          width: 70px;
+          margin: 5px; }
+        footer .footerContainer a div p {
+          margin: auto;
+          font-size: 30px;
+          font-family: "Outfit", sans-serif;
+          color: black; }
+      footer .footerContainer a .instagram {
+        margin-left: 0; }
+      footer .footerContainer a .x {
+        margin-right: 0; }
+
+.mainhistoria {
+  display: flex; }
+  .mainhistoria .linea {
+    height: auto;
+    width: 1px;
+    background-color: #364F6B55;
+    margin: 0 30px 0 10%; }
+  .mainhistoria .historia {
+    margin-right: 80px; }
+    .mainhistoria .historia h1 {
+      font-family: "Outfit", sans-serif;
+      margin: 30px 0; }
+    .mainhistoria .historia h2 {
+      font-family: "Outfit", sans-serif;
+      margin: 30px 0 10px 0; }
+    .mainhistoria .historia p {
+      font-family: "Outfit", sans-serif;
+      line-height: 1.5;
+      font-size: 20px;
+      width: 800px; }
+  .mainhistoria .imagenesHistoria {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column; }
+    .mainhistoria .imagenesHistoria .imagenHistoria1 {
+      height: 300px;
+      margin-top: 200px;
+      border-top: 55px solid #3FC1C9;
+      border-left: 55px solid #3FC1C9;
+      border-bottom: 55px solid #3FC1C9;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px; }
+    .mainhistoria .imagenesHistoria .imagenHistoria2 {
+      height: 300px;
+      margin-top: -20px;
+      border-top: 90px solid #FC5185;
+      border-left: 90px solid #FC5185;
+      border-bottom: 90px solid #FC5185;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px; }
+    .mainhistoria .imagenesHistoria .imagenHistoria3 {
+      height: 300px;
+      margin-top: 120px;
+      border-top: 80px solid #3FC1C9;
+      border-left: 80px solid #3FC1C9;
+      border-bottom: 80px solid #3FC1C9;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px; }
+    .mainhistoria .imagenesHistoria .imagenHistoria4 {
+      height: 400px;
+      margin-top: 100px;
+      border-top: 35px solid #FC5185;
+      border-left: 35px solid #FC5185;
+      border-bottom: 35px solid #FC5185;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px; }
+
+.mainGeografia .azul {
+  background-color: #3FC1C9; }
+
+.mainGeografia .rosa {
+  background-color: #FC5185; }
+
+.mainGeografia h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+  padding: 30px;
+  text-align: center;
+  background-color: #e6e6e6;
+  margin-top: 15vh; }
+
+.mainGeografia section {
+  height: auto;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  padding: 7%;
+  padding-top: 250px; }
+  .mainGeografia section h2 {
+    font-family: "Outfit", sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    padding: 30px;
+    text-align: center; }
+  .mainGeografia section .onda1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0; }
+    .mainGeografia section .onda1 svg {
+      position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 316px; }
+      .mainGeografia section .onda1 svg .shape-fill {
+        fill: #3FC1C9; }
+  .mainGeografia section .onda2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0; }
+    .mainGeografia section .onda2 svg {
+      position: relative;
+      display: block;
+      width: calc(142% + 1.3px);
+      height: 231px; }
+      .mainGeografia section .onda2 svg .shape-fill {
+        fill: #FC5185; }
+  .mainGeografia section .onda3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0; }
+    .mainGeografia section .onda3 svg {
+      position: relative;
+      display: block;
+      width: calc(192% + 1.3px);
+      height: 438px; }
+      .mainGeografia section .onda3 svg .shape-fill {
+        fill: #3FC1C9; }
+  .mainGeografia section .onda4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0; }
+    .mainGeografia section .onda4 svg {
+      position: relative;
+      display: block;
+      width: calc(106% + 1.3px);
+      height: 393px; }
+      .mainGeografia section .onda4 svg .shape-fill {
+        fill: #FC5185; }
+  .mainGeografia section img {
+    border-radius: 40px; }
+  .mainGeografia section div p {
+    font-family: "Outfit", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 40px;
+    text-align: justify;
+    margin: 0 30px; }
+
+.mainGeografia .seccion4 {
+  padding-top: 300px; }
+  .mainGeografia .seccion4 img {
+    width: 300px; }
+
+.mainPolitica {
+  background-color: #e6e6e6; }
+  .mainPolitica .tituloPolitica {
+    background-image: url(../img/reichstag.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 20%;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .mainPolitica .tituloPolitica h1 {
+      font-size: 70px;
+      font-family: "Outfit", sans-serif;
+      font-weight: 600;
+      backdrop-filter: blur(20px);
+      color: #e6e6e6;
+      text-shadow: 5px 4px #b1b1b1;
+      padding: 30px;
+      border-radius: 10px; }
+  .mainPolitica p {
+    font-size: 25px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    margin: 70px 150px;
+    line-height: 1.5; }
+  .mainPolitica .contenedorPresidente {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  .mainPolitica .contenedorBandera {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .mainPolitica .contenedorBandera img {
+      width: 800px; }
+  .mainPolitica .politicaParr1 {
+    background-color: #3FC1C9;
+    box-shadow: 10px 8px #087379;
+    padding: 40px;
+    border-radius: 25px; }
+  .mainPolitica .politicaParr3 {
+    background-color: #FC5185;
+    box-shadow: 10px 8px #950a33;
+    padding: 40px;
+    border-radius: 25px; }
+
+.mainCultura h1 {
+  font-size: 60px;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Outfit", sans-serif;
+  padding: 30px;
+  margin: auto; }
+
+.mainCultura .comidaAlemana {
+  background-color: #FC5185;
+  padding: 50px 0; }
+  .mainCultura .comidaAlemana h2 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Outfit", sans-serif;
+    margin: 20px; }
+  .mainCultura .comidaAlemana .contenedorComidaGrid {
+    padding: 65px;
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "comida5 comida2 comida4" "comida5 comida1 comida1" "comida6 comida6 comida3"; }
+    .mainCultura .comidaAlemana .contenedorComidaGrid div {
+      margin: 20px;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      .mainCultura .comidaAlemana .contenedorComidaGrid div p {
+        font-family: "Outfit", sans-serif;
+        font-size: 65px;
+        font-weight: 500;
+        backdrop-filter: blur(2px);
+        border-radius: 20px; }
+    .mainCultura .comidaAlemana .contenedorComidaGrid .contenedorComida1 {
+      grid-area: comida1;
+      background-color: #e6e6e6; }
+      .mainCultura .comidaAlemana .contenedorComidaGrid .contenedorComida1 p {
+        font-size: 25px;
+        font-weight: 400;
+        padding: 20px;
+        line-height: 1.5; }
+    .mainCultura .comidaAlemana .contenedorComidaGrid .contenedorComida2 {
+      grid-area: comida2;
+      background-image: url(../img/culturaAlemana/fotoComida1.jpg);
+      background-size: cover; }
+    .mainCultura .comidaAlemana .contenedorComidaGrid .contenedorComida3 {
+      grid-area: comida3;
+      background-image: url(../img/culturaAlemana/fotoComida4.jpg);
+      background-position-x: center;
+      background-size: cover; }
+    .mainCultura .comidaAlemana .contenedorComidaGrid .contenedorComida4 {
+      grid-area: comida4;
+      background-image: url(../img/culturaAlemana/fotoComida3.jpg);
+      background-size: cover; }
+    .mainCultura .comidaAlemana .contenedorComidaGrid .contenedorComida5 {
+      grid-area: comida5;
+      background-image: url(../img/culturaAlemana/fotoComida2.webp);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    .mainCultura .comidaAlemana .contenedorComidaGrid .contenedorComida6 {
+      grid-area: comida6;
+      background-image: url(../img/culturaAlemana/fotoComida5.webp);
+      background-position-y: center;
+      background-size: cover; }
+
+.mainCultura .arquitecturaAlemana {
+  background-color: #3FC1C9;
+  padding: 50px 0; }
+  .mainCultura .arquitecturaAlemana h2 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Outfit", sans-serif;
+    margin: 20px; }
+  .mainCultura .arquitecturaAlemana .contenedorArquitecturaGrid {
+    padding: 65px;
+    display: grid;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "arquitectura2 arquitectura5 arquitectura5" "arquitectura1 arquitectura1 arquitectura4" "arquitectura3 arquitectura6 arquitectura4"; }
+    .mainCultura .arquitecturaAlemana .contenedorArquitecturaGrid div {
+      margin: 20px;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-repeat: no-repeat; }
+      .mainCultura .arquitecturaAlemana .contenedorArquitecturaGrid div p {
+        font-family: "Outfit",sans-serif;
+        font-size: 65px;
+        text-align: center;
+        font-weight: 500;
+        backdrop-filter: blur(2px);
+        border-radius: 20px;
+        padding: 5px; }
+    .mainCultura .arquitecturaAlemana .contenedorArquitecturaGrid .contenedorArquitectura1 {
+      grid-area: arquitectura1;
+      background-color: #e6e6e6; }
+      .mainCultura .arquitecturaAlemana .contenedorArquitecturaGrid .contenedorArquitectura1 p {
+        font-size: 25px;
+        font-weight: 400;
+        padding: 20px;
+        line-height: 1.5;
+        backdrop-filter: unset;
+        border-radius: 20px; }
+    .mainCultura .arquitecturaAlemana .contenedorArquitecturaGrid .contenedorArquitectura2 {
+      grid-area: arquitectura2;
+      background-image: url(../img/culturaAlemana/fotoArquitectura1.jpg);
+      background-size: cover; }
+    .mainCultura .arquitecturaAlemana .contenedorArquitecturaGrid .contenedorArquitectura3 {
+      grid-area: arquitectura3;
+      background-image: url(../img/culturaAlemana/fotoArquitectura4.jpg);
+      background-position-x: center;
+      background-size: cover; }
+    .mainCultura .arquitecturaAlemana .contenedorArquitecturaGrid .contenedorArquitectura4 {
+      grid-area: arquitectura4;
+      background-image: url(../img/culturaAlemana/fotoArquitectura3.webp);
+      background-size: cover; }
+    .mainCultura .arquitecturaAlemana .contenedorArquitecturaGrid .contenedorArquitectura5 {
+      grid-area: arquitectura5;
+      background-image: url(../img/culturaAlemana/fotoArquitectura2.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+    .mainCultura .arquitecturaAlemana .contenedorArquitecturaGrid .contenedorArquitectura6 {
+      grid-area: arquitectura6;
+      background-image: url(../img/culturaAlemana/fotoArquitectura5.jpg);
+      background-position-y: center;
+      background-size: cover; }
+
+@media (max-width: 875px) {
+  .mainIndex .titulo h1 {
+    font-size: 50px; } }
+
+@media (max-width: 770px) {
+  .infoAlemania1 img {
+    display: none; }
+  .infoAlemania2 img {
+    display: none; }
+  .mainIndex .infoAlemania1 {
+    height: 850px; }
+  .mainIndex .infoAlemania1 div p {
+    text-align: left; }
+  .mainIndex .infoAlemania2 {
+    height: 850px; }
+    .mainIndex .infoAlemania2 p {
+      text-align: left; } }
+
+@media (max-width: 530px) {
+  .mainIndex .informacion nav a div {
+    width: 320px;
+    margin: 20px 20px; } }
+
+@media (max-width: 650px) {
+  footer .footerContainer a div {
+    height: 65px;
+    width: 140px;
+    border-radius: 10px;
+    margin: 20px; }
+  footer .footerContainer a div img {
+    width: 35px; }
+  footer .footerContainer a div p {
+    font-size: 15px; } }
+
+/*MEDIA QUERY HISTORIA*/
+@media (max-width: 701px) {
+  .mainhistoria img {
+    display: none; }
+  .mainhistoria div p {
+    width: unset;
+    width: 300px;
+    font-size: 20px; }
+  .historia h2 {
+    width: 300px;
+    font-size: 20px; }
+  .historia {
+    width: 300px; } }
+
+@media (max-width: 380px) {
+  .mainhistoria div p {
+    width: 220px;
+    font-size: 15px; }
+  .mainhistoria div h2 {
+    width: 220px;
+    font-size: 20px; } }
+
+/* MEDIA QUERYS GEOGRAFIA */
+@media (max-width: 1330px) {
+  .mainGeografia section img {
+    width: 500px;
+    height: 700px; }
+  .mainGeografia section div p {
+    text-align: left;
+    font-size: 20px;
+    margin: 15px; } }
+
+@media (max-width: 1090px) {
+  .mainGeografia section img {
+    width: 400px;
+    height: 550px; }
+  .mainGeografia section div p {
+    font-size: 17px;
+    margin: 0;
+    padding: 20px; } }
+
+@media (max-width: 970px) {
+  .mainGeografia section img {
+    width: 325px;
+    height: 450px; }
+  .mainGeografia section div p {
+    font-size: 17px; } }
+
+@media (max-width: 800px) {
+  .mainGeografia section {
+    flex-direction: column;
+    align-items: center; }
+  .mainGeografia section img {
+    width: 400px;
+    height: 550px; } }
+
+@media (max-width: 425px) {
+  .mainGeografia section img {
+    width: 300px;
+    height: 400px; }
+  .mainGeografia h1 {
+    font-size: 40px; } }
+
+/*MEDIA-QUERYS POLITICA*/
+@media (max-width: 1300px) {
+  .mainPolitica .contenedorBandera img {
+    width: 600px; }
+  .mainPolitica p {
+    margin: 60px; } }
+
+@media (max-width: 1100px) {
+  .mainPolitica img {
+    width: 450px; }
+  .mainPolitica p {
+    margin: 50px;
+    font-size: 22px; } }
+
+@media (max-width: 900px) {
+  .mainPolitica img {
+    width: 400px; }
+  .mainPolitica .contenedorBandera img {
+    width: 350px; }
+  .mainPolitica p {
+    margin: 40px;
+    font-size: 20px; } }
+
+@media (max-width: 750px) {
+  .mainPolitica .tituloPolitica h1 {
+    font-size: 40px;
+    font-weight: 400; }
+  .mainPolitica .contenedorBandera {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center; }
+  .mainPolitica .contenedorPresidente {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center; }
+  .mainPolitica .contenedorBandera img {
+    width: 550px;
+    border-radius: 20px; }
+  .mainPolitica .contenedorPresidente img {
+    width: 550px;
+    border-radius: 20px; } }
+
+@media (max-width: 570px) {
+  .mainPolitica .contenedorBandera img {
+    width: 370px;
+    border-radius: 15px; }
+  .mainPolitica .contenedorPresidente img {
+    width: 370px;
+    border-radius: 15px; }
+  .mainPolitica p {
+    margin: 20px;
+    font-size: 17px; } }
+
+@media (max-width: 430px) {
+  .mainPolitica .contenedorBandera img {
+    width: 300px; }
+  .mainPolitica .contenedorPresidente img {
+    width: 300px; }
+  .mainPolitica .tituloPolitica h1 {
+    font-size: 25px;
+    padding: 10px; } }
+
+/*MEDIAQUERYS CULTURA*/
+@media (max-width: 1200px) {
+  .mainCultura .comidaAlemana .contenedorComidaGrid {
+    grid-template-rows: repeat(4, 300px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "comida5 comida2" "comida5 comida3" "comida1 comida1" "comida6 comida6";
+    padding: 20px; }
+  .mainCultura .comidaAlemana .contenedorComidaGrid .contenedorComida4 {
+    display: none; }
+  .mainCultura .arquitecturaAlemana .contenedorArquitecturaGrid {
+    grid-template-rows: repeat(4, 300px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "arquitectura5 arquitectura5" "arquitectura1 arquitectura1" "arquitectura3 arquitectura4" "arquitectura6 arquitectura4";
+    padding: 20px; }
+  .mainCultura .arquitecturaAlemana .contenedorArquitecturaGrid .contenedorArquitectura2 {
+    display: none; } }
+
+@media (max-width: 750px) {
+  .mainCultura .comidaAlemana .contenedorComidaGrid {
+    grid-template-rows: repeat(6, 300px);
+    grid-template-columns: 1fr;
+    grid-template-areas: "comida5" "comida5" "comida1" "comida1" "comida2" "comida3";
+    padding: 90px; }
+  .mainCultura .comidaAlemana .contenedorComidaGrid .contenedorComida6 {
+    display: none; }
+  .mainCultura .arquitecturaAlemana .contenedorArquitecturaGrid {
+    grid-template-rows: repeat(6, 300px);
+    grid-template-columns: 1fr;
+    grid-template-areas: "arquitectura3" "arquitectura6" "arquitectura1" "arquitectura1" "arquitectura4" "arquitectura4";
+    padding: 90px; }
+  .mainCultura .arquitecturaAlemana .contenedorArquitecturaGrid .contenedorArquitectura5 {
+    display: none; } }
+
+@media (max-width: 550px) {
+  .mainCultura .arquitecturaAlemana .contenedorArquitecturaGrid {
+    padding: 20px; }
+  .mainCultura .comidaAlemana .contenedorComidaGrid {
+    padding: 20px; } }
+
+@media (max-width: 550px) {
+  .mainCultura .arquitecturaAlemana .contenedorArquitecturaGrid {
+    padding: 0; }
+  .mainCultura .comidaAlemana .contenedorComidaGrid {
+    padding: 0; }
+  .mainCultura .arquitecturaAlemana .contenedorArquitecturaGrid div {
+    margin: 5px; } }

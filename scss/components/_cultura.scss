@@ -1,0 +1,184 @@
+.mainCultura {
+    h1 {
+        font-size: 60px;
+        text-align: center;
+        font-weight: 600;
+        font-family: "Outfit", sans-serif;
+        padding: 30px;
+        margin: auto;
+    }
+
+    .comidaAlemana {
+        background-color: #FC5185;
+        padding: 50px 0;
+
+        h2 {
+            font-size: 50px;
+            text-align: center;
+            font-weight: 600;
+            font-family: "Outfit", sans-serif;
+            margin: 20px;
+        }
+
+        .contenedorComidaGrid {
+            padding: 65px;
+            display: grid;
+            grid-template-rows: 300px 300px 300px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-areas:
+                "comida5 comida2 comida4"
+                "comida5 comida1 comida1"
+                "comida6 comida6 comida3";
+
+            div {
+                margin: 20px;
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                p {
+                    font-family: "Outfit", sans-serif;
+                    font-size: 65px;
+                    font-weight: 500;
+                    backdrop-filter: blur(2px);
+                    border-radius: 20px;
+                }
+            }
+
+            .contenedorComida1 {
+                grid-area: comida1;
+                background-color: #e6e6e6;
+
+                p {
+                    font-size: 25px;
+                    font-weight: 400;
+                    padding: 20px;
+                    line-height: 1.5;
+                }
+            }
+
+            .contenedorComida2 {
+                grid-area: comida2;
+                background-image: url(../img/culturaAlemana/fotoComida1.jpg);
+                background-size: cover;
+            }
+
+            .contenedorComida3 {
+                grid-area: comida3;
+                background-image: url(../img/culturaAlemana/fotoComida4.jpg);
+                background-position-x: center;
+                background-size: cover;
+            }
+
+            .contenedorComida4 {
+                grid-area: comida4;
+                background-image: url(../img/culturaAlemana/fotoComida3.jpg);
+                background-size: cover;
+            }
+
+            .contenedorComida5 {
+                grid-area: comida5;
+                background-image: url(../img/culturaAlemana/fotoComida2.webp);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+
+            .contenedorComida6 {
+                grid-area: comida6;
+                background-image: url(../img/culturaAlemana/fotoComida5.webp);
+                background-position-y: center;
+                background-size: cover;
+            }
+
+        }
+    }
+
+    .arquitecturaAlemana {
+        background-color: #3FC1C9;
+        padding: 50px 0;
+
+        h2 {
+            font-size: 50px;
+            text-align: center;
+            font-weight: 600;
+            font-family: "Outfit", sans-serif;
+            margin: 20px;
+        }
+
+        .contenedorArquitecturaGrid {
+            padding: 65px;
+            display: grid;
+            grid-template-rows: 300px 300px 300px;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-areas:
+                "arquitectura2 arquitectura5 arquitectura5"
+                "arquitectura1 arquitectura1 arquitectura4"
+                "arquitectura3 arquitectura6 arquitectura4";
+
+            div {
+                margin: 20px;
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-repeat: no-repeat;
+
+                p{
+                    font-family: "Outfit",sans-serif;
+                    font-size: 65px;
+                    text-align: center;
+                    font-weight:500;
+                    backdrop-filter: blur(2px);
+                    border-radius: 20px;
+                    padding:5px;
+                }
+            }
+
+            .contenedorArquitectura1{
+                grid-area: arquitectura1;
+                background-color:#e6e6e6;
+                p{
+                    font-size: 25px;
+                    font-weight: 400;
+                    padding:20px;
+                    line-height:1.5 ;
+                    backdrop-filter: unset;
+                    border-radius: 20px;
+                }
+            }
+            .contenedorArquitectura2{
+                grid-area: arquitectura2;
+                background-image: url(../img/culturaAlemana/fotoArquitectura1.jpg);
+                background-size: cover;
+            }
+            .contenedorArquitectura3{
+                grid-area: arquitectura3;
+                background-image: url(../img/culturaAlemana/fotoArquitectura4.jpg);
+                background-position-x: center;
+                background-size: cover;
+            }
+            .contenedorArquitectura4{
+                grid-area: arquitectura4;
+                background-image: url(../img/culturaAlemana/fotoArquitectura3.webp);
+                background-size: cover;
+            }
+            .contenedorArquitectura5{
+                grid-area: arquitectura5;
+                background-image: url(../img/culturaAlemana/fotoArquitectura2.jpg);
+                background-repeat:no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .contenedorArquitectura6{
+                grid-area: arquitectura6;
+                background-image: url(../img/culturaAlemana/fotoArquitectura5.jpg);
+                background-position-y: center;
+                background-size: cover;
+            }
+        } 
+    }
+}

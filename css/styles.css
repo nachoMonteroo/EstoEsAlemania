@@ -9,106 +9,7 @@ body{
     background-color:#e6e6e6;
 }
 
-
-header{
-    position:fixed;
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    width:100%;
-    height: 100px;
-    background-color: #364F6B;
-    top:0%;
-    z-index:3;
-    
-}
-
-header img{
-    height: 70px;
-    margin: 30px;
-}
-
-header a{
-    list-style: none;
-    text-decoration: none;
-}
-
-header a{
-    font-family: "Outfit", sans-serif;
-    margin: auto 40px;
-}
-
-header a:hover p{
-    color: #7adadd;
-}
-
-header a:active p{
-    color:#d4fdff
-}
-
-.colorazul{
-    color: #3FC1C9;
-}
-
-/*HEADER MEDIA QUERY*/
-
-@media(max-width:910px){
-    header{
-        height:170px;
-        display:grid;
-        grid-template-rows: 85px 85px;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas:
-        ". img ."
-        "link1 link2 link3";
-    }
-
-    .contenedorImagenHeader{
-        display: flex;
-        justify-content: center;
-        grid-area: img;
-    }
-
-    header p{
-        text-align: center;
-        width: 100%;
-        max-width: 130px;
-        margin:5px;
-        padding:5px;
-        font-size: 32px;
-        }
-
-    header a{
-        display: flex;
-        justify-content: center;
-    }
-
-    .link1{
-        grid-area: link1;
-    }
-
-    .link2{
-        grid-area: link2;
-    }
-
-    .link3{
-        grid-area: link3;
-        margin:5px;
-    }
-}
-    @media(max-width:700px) {
-        header{
-            width:100vw;
-            grid-template-columns: auto;
-        }
-
-        header p{
-            font-size:25px;
-        }
-
-    }
-
-    /**INDEX */
+/**INDEX */
 
 .titulo{
     position: relative;
@@ -233,25 +134,25 @@ header a:active p{
     flex-wrap:wrap;
 }
 
-.historiaalemania{
+.historiaAlemania{
     background-image: url(../img/Berlinwall.webp);
     background-size: 100%;
     background-position-y: 30%;
     
 }
 
-.geografiaalemania{
+.geografiaAlemania{
     background-image: url(../img/Germanygeography.jpg);
     background-size: 100%;
     background-position-y: 50%;
 }
 
-.politicaalemania{
+.politicaAlemania{
     background-image: url(../img/PoliticaAlemania.webp);
     background-size: 100%;
 }
 
-.culturaalemania{
+.culturaAlemania{
     background-image: url(../img/CulturaAlemana.jpeg);
     background-size: 100%;
     background-position-y: 30%;
@@ -271,7 +172,7 @@ footer a{
     text-decoration: none;
 }
 
-.divisorgrande{
+.divisorGrande{
     height: 2px;
     width:75vw;
     background-color: #364F6B55;
@@ -279,7 +180,7 @@ footer a{
     justify-self: center;
 }
 
-.divisorpequeno{
+.divisorPequeno{
     height: 2px;
     width:45vw;
     background-color: #364F6B55;
@@ -318,7 +219,6 @@ footer img{
     box-shadow: 8px 8px #397e82;
 }
 
-
 .x{
     margin-right: 0;
 }
@@ -333,7 +233,6 @@ footer p{
     font-family: "Outfit", sans-serif;
     color: black;
 }
-
 
 
 /** Pagina Historia */
@@ -371,7 +270,7 @@ footer p{
     width:800px;
 }
 
-.mainhistoria .imageneshistoria{
+.mainhistoria .imagenesHistoria{
     width: 100%;
     display: flex;
     justify-content:flex-start;
@@ -379,7 +278,7 @@ footer p{
     flex-direction: column;
 }
 
-.planonuremberg{
+.imagenHistoria1{
     height:300px;
     margin-top: 200px;
     border-top: 55px solid #3FC1C9;
@@ -390,7 +289,7 @@ footer p{
 
 }
 
-.banderaprusia{
+.imagenHistoria2{
     height:300px;
     margin-top:-20px;
     border-top: 90px solid #FC5185;
@@ -400,7 +299,7 @@ footer p{
     border-bottom-left-radius: 20px;
 }
 
-.partidonazi{
+.imagenHistoria3{
     height:300px;
     margin-top:120px;
     border-top: 80px solid #3FC1C9;
@@ -410,7 +309,7 @@ footer p{
     border-bottom-left-radius: 20px;
 }
 
-.banderaalemania{
+.imagenHistoria4{
     height:400px;
     margin-top:100px;
     border-top: 35px solid #FC5185;
@@ -620,14 +519,14 @@ footer p{
     align-items: center;
 }
 
-.politicaparr1{
+.politicaParr1{
     background-color: #3FC1C9;
     box-shadow:10px 8px #087379;
     padding: 40px;
     border-radius: 25px;
 }
 
-.politicaparr3{
+.politicaParr3{
     background-color: #FC5185;
     box-shadow:10px 8px #950a33;
     padding: 40px;
@@ -638,7 +537,7 @@ footer p{
 
 
 
-.mainCulturaAlemana h1{
+.mainCultura h1{
     font-size: 60px;
     text-align: center;
     font-weight: 600;
@@ -655,7 +554,7 @@ footer p{
     margin: 20px;
 }
 
-.mainCulturaAlemana{
+.mainCultura{
     margin-top: 16vh;
 }
 
@@ -777,10 +676,6 @@ footer p{
     grid-area: arquitectura1;
     background-color:#e6e6e6;
 }
-
-/*MEDIAS QUERY HISTORIA*/
-
-
 
 .contenedorArquitectura2{
     grid-area: arquitectura2;
