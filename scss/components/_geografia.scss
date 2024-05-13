@@ -1,9 +1,9 @@
 .mainGeografia {
     .azul{
-        background-color: #3FC1C9;
+        background-color: $colorPrincipal1;
     }
     .rosa{
-        background-color: #FC5185;
+        background-color: $colorPrincipal2;
     }
     
     h1 {
@@ -12,8 +12,7 @@
         font-weight: 800;
         padding: 30px;
         text-align: center;
-        background-color: #e6e6e6;
-        margin-top: 15vh;
+        background-color: $colorClaro;
     }
 
     section {
@@ -47,7 +46,7 @@
                 height: 316px;
 
                 .shape-fill {
-                    fill: #3FC1C9;
+                    fill: $colorPrincipal1;
                 }
             }
         }
@@ -67,7 +66,7 @@
                 height: 231px;
 
                 .shape-fill {
-                    fill: #FC5185;
+                    fill: $colorPrincipal2;
                 }
             }
         }
@@ -87,7 +86,7 @@
                 height: 438px;
 
                 .shape-fill {
-                    fill: #3FC1C9;
+                    fill: $colorPrincipal1;
                 }
             }
         }
@@ -107,7 +106,7 @@
                 height: 393px;
 
                 .shape-fill {
-                    fill: #FC5185;
+                    fill: $colorPrincipal2;
                 }
             }
         }

@@ -9,7 +9,7 @@
     }
 
     .comidaAlemana {
-        background-color: #FC5185;
+        background-color: $colorPrincipal2;
         padding: 50px 0;
 
         h2 {
@@ -33,9 +33,7 @@
             div {
                 margin: 20px;
                 border-radius: 20px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @extend %flexCenter;
                 background-repeat: no-repeat;
                 background-size: cover;
 
@@ -50,7 +48,7 @@
 
             .contenedorComida1 {
                 grid-area: comida1;
-                background-color: #e6e6e6;
+                background-color: $colorClaro;
 
                 p {
                     font-size: 25px;
@@ -98,7 +96,7 @@
     }
 
     .arquitecturaAlemana {
-        background-color: #3FC1C9;
+        background-color: $colorPrincipal1;
         padding: 50px 0;
 
         h2 {
@@ -122,9 +120,7 @@
             div {
                 margin: 20px;
                 border-radius: 20px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @extend %flexCenter;
                 background-repeat: no-repeat;
 
                 p{
@@ -140,7 +136,7 @@
 
             .contenedorArquitectura1{
                 grid-area: arquitectura1;
-                background-color:#e6e6e6;
+                background-color:$colorClaro;
                 p{
                     font-size: 25px;
                     font-weight: 400;

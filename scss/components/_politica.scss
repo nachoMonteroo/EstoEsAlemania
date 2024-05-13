@@ -7,16 +7,14 @@
         background-position-y: 20%;
         height: 90vh;
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @extend %flexCenter;
 
         h1 {
             font-size: 70px;
             font-family: "Outfit", sans-serif;
             font-weight: 600;
             backdrop-filter: blur(20px);
-            color: #e6e6e6;
+            color:$colorClaro ;
             text-shadow: 5px 4px #b1b1b1;
             padding: 30px;
             border-radius: 10px;
@@ -32,29 +30,25 @@
     }
 
     .contenedorPresidente {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        @extend %flexCenter;
     }
 
     .contenedorBandera {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        @extend %flexCenter;
         img{
             width: 800px;
         }
     }
 
     .politicaParr1 {
-        background-color: #3FC1C9;
+        background-color: $colorPrincipal1;
         box-shadow: 10px 8px #087379;
         padding: 40px;
         border-radius: 25px;
     }
 
     .politicaParr3 {
-        background-color: #FC5185;
+        background-color: $colorPrincipal2;
         box-shadow: 10px 8px #950a33;
         padding: 40px;
         border-radius: 25px;

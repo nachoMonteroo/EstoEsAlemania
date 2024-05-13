@@ -11,6 +11,25 @@ body {
 
 header {
   width: 100%; }
+  header nav {
+    padding: 50px;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px; }
+    header nav div a {
+      text-decoration: none;
+      font-size: 25px;
+      margin: 5px 20px;
+      color: #e6e6e6; }
+      header nav div a :hover {
+        color: #ffffff; }
+    header nav div div ul li {
+      margin: 0 35px; }
+      header nav div div ul li .colorAzul {
+        color: #3FC1C9; }
+      header nav div div ul li .colorAzul:hover {
+        color: #1bffff; }
+      header nav div div ul li .colorAzul:active {
+        color: #deffff; }
 
 .mainIndex .titulo {
   position: relative;
@@ -249,8 +268,7 @@ footer {
   font-weight: 800;
   padding: 30px;
   text-align: center;
-  background-color: #e6e6e6;
-  margin-top: 15vh; }
+  background-color: #e6e6e6; }
 
 .mainGeografia section {
   height: auto;
@@ -554,26 +572,36 @@ footer {
     font-size: 15px; } }
 
 /*MEDIA QUERY HISTORIA*/
-@media (max-width: 701px) {
-  .mainhistoria img {
-    display: none; }
-  .mainhistoria div p {
-    width: unset;
-    width: 300px;
-    font-size: 20px; }
-  .historia h2 {
-    width: 300px;
-    font-size: 20px; }
-  .historia {
-    width: 300px; } }
+@media (max-width: 1400px) {
+  img {
+    display: none; } }
 
-@media (max-width: 380px) {
-  .mainhistoria div p {
-    width: 220px;
+@media (max-width: 950px) {
+  .mainhistoria .historia p {
+    width: 500px; }
+  .mainhistoria .historia h1 {
+    width: 500px; }
+  .mainhistoria .historia h2 {
+    width: 500px; } }
+
+@media (max-width: 600px) {
+  .mainhistoria .historia p {
+    width: 350px;
     font-size: 15px; }
-  .mainhistoria div h2 {
-    width: 220px;
+  .mainhistoria .historia h1 {
+    width: 350px;
+    font-size: 23px; }
+  .mainhistoria .historia h2 {
+    width: 350px;
     font-size: 20px; } }
+
+@media (max-width: 430px) {
+  .mainhistoria .historia p {
+    width: 270px; }
+  .mainhistoria .historia h1 {
+    width: 270px; }
+  .mainhistoria .historia h2 {
+    width: 270px; } }
 
 /* MEDIA QUERYS GEOGRAFIA */
 @media (max-width: 1330px) {

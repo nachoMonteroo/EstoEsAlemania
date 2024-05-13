@@ -2,3 +2,10 @@ $colorClaro: #e6e6e6;
 $colorOscuro: #364F6B;
 $colorPrincipal1: #3FC1C9;
 $colorPrincipal2: #FC5185;
+
+%flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

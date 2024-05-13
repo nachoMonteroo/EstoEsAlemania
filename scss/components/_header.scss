@@ -1,7 +1,45 @@
-.colorHeader{
+.colorHeader {
     background-color: $colorOscuro;
 }
 
-header{
+header {
     width: 100%;
+
+
+    nav {
+        padding: 50px;
+        font-family: "Outfit", sans-serif;
+        font-size: 20px;
+
+        div {
+            a {
+                text-decoration: none;
+                font-size: 25px;
+                margin: 5px 20px;
+                color: $colorClaro;
+
+                :hover {
+                    color: #ffffff;
+                }
+            }
+
+            div {
+                ul {
+                    li {
+                        margin: 0 35px;
+
+                        .colorAzul {
+                            color: $colorPrincipal1;
+                        }
+                        .colorAzul:hover{
+                            color:rgb(27, 255, 255)
+                        }
+                        .colorAzul:active{
+                            color:rgb(222, 255, 255)
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
